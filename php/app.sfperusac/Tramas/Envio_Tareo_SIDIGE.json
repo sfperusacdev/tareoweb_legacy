@@ -1,0 +1,41 @@
+{
+               "lstEventos": [
+                              {
+                                            "Actividad": "Evaluación sanitaria", ------ Se necesita para poblar descripcion
+                                            "CodEmp": "E1",
+                                            "MonTar": "4.535", ---- Tarifa costo de actividad.
+                                            "CodArt": "ACT-0053", ---- Código de actividad
+                                            "CodDoc": "OT01", ---- Campo que indica el cultivo a donde se ejecuta la actividad
+                                            "QR_OS": "",
+                                            "NumIte": "359", ---- Referencia Actividad
+                                            "TipEve": "OT01NSI", ---- ?
+                                            "CodRes": "04271", --- Con Trabajador
+                                            "FecHis": "2019-04-08 06:53:54 AM",
+                                            "FlaConHor": "true",
+                                            "FinTur": "11:00",
+                                            "MemHis": "",
+                                            "xTipMon": "MN",
+                                            "NUmIte1": "01", ---- Referencia sub Actividad
+                                            "Sello": "false",
+                                            "NumDoc": "11812-003", ---- Código que referencia al Lote (C_COSTOS)
+                                            "adicional": {
+                                                           "PorAva": 0,
+                                                           "GeoLon": 0,
+                                                           "GeoLat": 0
+                                            },
+                                            "Num": [0,0,0,0,0,0,0,0,0],
+                                            "IniTur": "06:00",
+                                            "CodSubAlm": "ACT", ---
+                                            "FecCrea": "08/04/2019 06:00:00 AM",
+                                            "FecIniPro": "08/04/2019 06:00:00 AM",
+                                            "FecFinPro": "08/04/2019 11:00:00 AM",
+                                            "NumIte1": "01",
+                                            "lstTicket": [00318],
+                                            "PorAva": "0",
+                                            "CanTot": "",
+                                            "Mod2": "08/04/2019 11:00:00 AM",
+                                            "DesHis": ""
+                              }
+
+               ]
+}

@@ -1,0 +1,20 @@
+services:
+  db:
+    image: mariadb:10.2
+    hostname: mariadb
+    restart: unless-stopped
+    ports:
+      - 3336:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: "kevin002@2023"
+      MYSQL_DATABASE: DATA_SF
+      MYSQL_USER: sfperu
+      MYSQL_PASSWORD: "@MMiguel2020"
+    volumes:
+     - ${PWD}/mariadb:/var/lib/mysql
+  sfweb:
+    image: sfwebservice:1.0.0
+    hostname: sfweb
+    restart: unless-stopped
+    ports:
+      - "80:80"
