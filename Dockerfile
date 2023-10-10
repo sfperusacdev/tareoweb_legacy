@@ -15,4 +15,4 @@ RUN ACCEPT_EULA=Y apt -y install msodbcsql17 && apt-get clean && rm -rf /var/lib
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 COPY php /var/www/
 RUN rm -rf /etc/apache2/sites-enabled/*
-COPY *.conf /etc/apache2/sites-enabled
+COPY *.conf /etc/apache2/sites-enabled/
