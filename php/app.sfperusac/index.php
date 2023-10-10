@@ -1,5 +1,5 @@
 <?php
-require_once("controller/Login.php");
+require_once("controller/login.php");
 $login = new Login();
 
 // ... ask if we are logged in here:

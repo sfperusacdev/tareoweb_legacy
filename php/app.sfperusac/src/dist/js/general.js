@@ -19,7 +19,7 @@ function geturl()
     ruta="";
 	$.ajax({
         type: "POST",
-        url: '../../controller/Login.php',
+        url: '../../controller/login.php',
         async:false,
         data: {
             accion: 'sesion',

@@ -1,6 +1,6 @@
 <?php
 require '../TCPDF/tcpdf_import.php';
-require_once("Login.php");
+require_once("login.php");
 //class Etiqueta{
  //  public function genera_etiquetas()
   //  {

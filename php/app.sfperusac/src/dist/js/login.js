@@ -75,7 +75,7 @@ function login() {
 
         if (validardomain($('#domain').val()) == true) {
             
-            $.post("../app.sfperusac/controller/Login.php", { "username": $('#username').val(), "password": $('#password').val(), "webservice": webservice, "domain": Domain, "accion": "login" }, function (ret) {
+            $.post("../app.sfperusac/controller/login.php", { "username": $('#username').val(), "password": $('#password').val(), "webservice": webservice, "domain": Domain, "accion": "login" }, function (ret) {
                 
                 if (ret == "ok") {
                     sessionStorage.setItem("username", $('#username').val());
@@ -346,7 +346,7 @@ function ingresar() {
         closeOnConfirm: false,
         closeOnCancel: false
     });
-    $.post("../app.sfperusac/controller/Login.php", { "accion": "log" }, function (ret) {
+    $.post("../app.sfperusac/controller/login.php", { "accion": "log" }, function (ret) {
 
         if (ret == "ok") {
             if(Domain=="VALLEPAMPA" || Domain=="FFP"){

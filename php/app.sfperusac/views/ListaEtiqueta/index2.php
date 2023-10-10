@@ -1,7 +1,7 @@
 <?php
 $ruta = "../..";
 
-/*require_once($ruta."/controller/Login.php");
+/*require_once($ruta."/controller/login.php");
 $login = new Login();
 
 if ($login->isUserLoggedIn() == false) {
