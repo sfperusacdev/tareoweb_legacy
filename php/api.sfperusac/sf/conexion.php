@@ -2,6 +2,5 @@
 $user='sfperu';
 $password='@MMiguel2020';
 $server='mariadb';
-$iddatabase='DATA_SF';
-
+$iddatabase='data_sf';
 ?>

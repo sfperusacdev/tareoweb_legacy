@@ -7,7 +7,7 @@ services:
       - 3336:3306
     environment:
       MYSQL_ROOT_PASSWORD: "kevin002@2023"
-      MYSQL_DATABASE: DATA_SF
+      MYSQL_DATABASE: data_sf
       MYSQL_USER: sfperu
       MYSQL_PASSWORD: "@MMiguel2020"
     volumes:
