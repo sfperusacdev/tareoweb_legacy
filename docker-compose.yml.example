@@ -17,4 +17,4 @@ services:
     hostname: sfweb
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "8880:80"
