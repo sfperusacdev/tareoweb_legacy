@@ -14,6 +14,5 @@ RUN curl -s https://packages.microsoft.com/keys/microsoft.asc | apt-key add - \
 RUN ACCEPT_EULA=Y apt -y install msodbcsql17 && apt-get clean && rm -rf /var/lib/apt/lists/*
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 COPY php /var/www/
-COPY ports.conf /etc/apache2/sites-enabled/ports.conf
 RUN rm -rf /etc/apache2/sites-enabled/*
 COPY *.conf /etc/apache2/sites-enabled/
