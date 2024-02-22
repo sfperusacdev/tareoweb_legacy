@@ -14,12 +14,12 @@ if ($mysqli->connect_errno) {
 }
 $queri = "call spsystem_getPreference('" . $idcliente . "','" . $idproducto . "','" . $key . "');";
 $myArray = array();
-if ($result = $mysqli->query($queri)) {
-  $prefvalue = $row['prefValue'];
-  if ($prefvalue == null) {
-    $prefvalue = "";
-  }
+if ($result = $mysqli->query($queri)) { 
   while ($row = $result->fetch_array()) {
+    $prefvalue = $row['prefValue'];
+    if ($prefvalue == null) {
+      $prefvalue = "";
+    }
     $row_array['prefKey'] = utf8_encode($row['prefKey']);
     $row_array['prefDesc'] = utf8_encode($row['prefDesc']);
     $row_array['prefValue'] = utf8_encode($prefvalue);
