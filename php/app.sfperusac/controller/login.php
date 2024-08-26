@@ -136,7 +136,7 @@ class login
             $response = $client->request('POST', '', [
                 'form_params' => [
                     'accion' => 'login',
-                    'controller' => 'usuario',
+                    'controller' => 'Usuario',
                     'usuario' => $_POST['username'],
                     'password' => $password
                 ]
