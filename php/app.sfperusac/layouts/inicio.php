@@ -102,7 +102,8 @@
       <li class="bold"><a id="eti" class="waves-effect waves-cyan modal-trigger " href="<?php echo $ruta;?>/views/Etiqueta/"><i class="material-icons">group</i><span class="menu-title" data-i18n="">Etiquetas</span></a>
       </li>
       <li class="bold"><a id="lietiqueta" class="waves-effect waves-cyan modal-trigger " href="<?php echo $ruta;?>/views/ListaEtiqueta/"><i class="material-icons">group</i><span class="menu-title" data-i18n="">Busca Etiquetas</span></a>
-      </li>
+      </li>      
+      <li class="bold"><a id="lietiqueta_con" class="waves-effect waves-cyan modal-trigger " href="<?php echo $ruta;?>/views/ConEtiqueta/"><i class="material-icons">group</i><span class="menu-title" data-i18n="">Consolidado de Etiquetas</span></a>
       </li>
         <li class="navigation-header"><a class="navigation-header-text">REPORTES </a><i class="navigation-header-icon material-icons">more_horiz</i>
         </li>
